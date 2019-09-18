@@ -7,7 +7,7 @@ Features:
 
 ## Instalation
 
-1. `npm install https://github.com/gabtec/couchdb-ddocs-extractor.git `
+1. `git clone https://github.com/gabtec/couchdb-ddocs-extractor.git `
 2. `npm install ` to install all dependencies
 2. or `npm install --production` to install just production dependencies
 3. edit `lib/configs/config.js` and set your server configs and if needed, the databases to exclude
