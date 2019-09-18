@@ -1,0 +1,31 @@
+{
+  "name": "couchdb-ddoc-extractor",
+  "version": "1.0.0",
+  "description": "extracts design docs from couchdb dev server to production server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "./node_modules/mocha/bin/mocha ./tests/unit/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabtec/couchdb-ddocs-extractor.git"
+  },
+  "author": "Gabriel Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabtec/couchdb-ddocs-extractor/issues"
+  },
+  "homepage": "https://github.com/gabtec/couchdb-ddocs-extractor#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
